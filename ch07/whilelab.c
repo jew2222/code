@@ -1,4 +1,4 @@
-// file: whilelab.c
+﻿// file: whilelab.c
 
 #include <stdio.h>
 #define MAX 20

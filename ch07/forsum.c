@@ -1,24 +1,24 @@
-// file: forsum.c
+ï»¿// file: forsum.c
 #include <stdio.h>
 
 int main(void)
 {
 	int i, sum;
 
-	for (i = 1, sum = 0; i <= 10; i++) //++iµµ °¡´É
+	for (i = 1, sum = 0; i <= 10; i++) //++ië„ ê°€ëŠ¥
 		sum += i; // sum = sum + i;
-	printf("1¿¡¼­ 10±îÁö ÇÕ: %3d\n", sum);
+	printf("1ì—ì„œ 10ê¹Œì§€ í•©: %3d\n", sum);
 
 	for (i = 1, sum = 0; i <= 10;)
 		sum += i++;
-	printf("1¿¡¼­ 10±îÁö ÇÕ: %3d\n", sum);
+	printf("1ì—ì„œ 10ê¹Œì§€ í•©: %3d\n", sum);
 
 	for (i = 0, sum = 0; i <= 9;)
 		sum += ++i;
-	printf("1¿¡¼­ 10±îÁö ÇÕ: %3d\n", sum);
+	printf("1ì—ì„œ 10ê¹Œì§€ í•©: %3d\n", sum);
 
-	for (i = 1, sum = 0; i <= 10; sum += i++);//¹Ýº¹¸öÃ¼°¡ ¾ø´Â for ¹®
-	printf("1¿¡¼­ 10±îÁö ÇÕ: %3d\n", sum);
+	for (i = 1, sum = 0; i <= 10; sum += i++);//ë°˜ë³µëª¸ì²´ê°€ ì—†ëŠ” for ë¬¸
+	printf("1ì—ì„œ 10ê¹Œì§€ í•©: %3d\n", sum);
 
 	return 0;
 }

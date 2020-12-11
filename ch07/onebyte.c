@@ -1,19 +1,19 @@
-// file: onebyte.c
+ï»¿// file: onebyte.c
 #include <stdio.h>
 
 int main(void)
 {
 	int num = 13;
-	printf("Á¤¼ö %dÀÇ ¿À¸¥ÂÊ 8ºñÆ® ³»ºÎ°ª:\n", num);
+	printf("ì •ìˆ˜ %dì˜ ì˜¤ë¥¸ìª½ 8ë¹„íŠ¸ ë‚´ë¶€ê°’:\n", num);
 
-	printf("%d", num >> 7 & 1); //¿À¸¥ÂÊ 8¹øÂ° ºñÆ®°ª Ãâ·Â
+	printf("%d", num >> 7 & 1); //ì˜¤ë¥¸ìª½ 8ë²ˆì§¸ ë¹„íŠ¸ê°’ ì¶œë ¥
 	printf("%d", num >> 6 & 1);
 	printf("%d", num >> 5 & 1);
 	printf("%d", num >> 4 & 1);
 	printf(" %d", num >> 3 & 1);
 	printf("%d", num >> 2 & 1);
 	printf("%d", num >> 1 & 1);
-	printf("%d\n", num >> 0 & 1); //¿À¸¥ÂÊ Ã¹ ºñÆ®°ª Ãâ·Â
+	printf("%d\n", num >> 0 & 1); //ì˜¤ë¥¸ìª½ ì²« ë¹„íŠ¸ê°’ ì¶œë ¥
 
 
 	return 0;

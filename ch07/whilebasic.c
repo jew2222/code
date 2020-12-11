@@ -1,4 +1,4 @@
-// file: whilebasic.c
+ï»¿// file: whilebasic.c
 
 #include <stdio.h>
 
@@ -8,10 +8,10 @@ int main(void)
 
 	while (count <= 3)
 	{
-		printf("C ¾ð¾î Àç¹ÌÀÖ³×¿ä!\n");
+		printf("C ì–¸ì–´ ìž¬ë¯¸ìžˆë„¤ìš”!\n");
 		count++;
 	};
-	printf("\nÁ¦¾îº¯¼ö count => %d\n", count);
+	printf("\nì œì–´ë³€ìˆ˜ count => %d\n", count);
 
 	return 0;
 }

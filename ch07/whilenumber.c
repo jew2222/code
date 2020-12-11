@@ -1,4 +1,4 @@
-// file: whilenumber.c
+ï»¿// file: whilenumber.c
 
 #include <stdio.h>
 #define MAX 5
@@ -10,7 +10,7 @@ int main(void)
 	while (n <= MAX)
 		printf("%d\n", n++);
 
-	printf("\nÁ¦¾îº¯¼ö n => %d\n", n);
+	printf("\nì œì–´ë³€ìˆ˜ n => %d\n", n);
 
 	return 0;
 }

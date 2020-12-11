@@ -1,5 +1,5 @@
-// file: break.c 
-#define _CRT_SECURE_NO_WARNINGS //scanf() ¿À·ù¸¦ ¹æÁöÇÏ±â À§ÇÑ »ó¼öÁ¤ÀÇ
+ï»¿// file: break.c 
+#define _CRT_SECURE_NO_WARNINGS //scanf() ì˜¤ë¥˜ë¥¼ ë°©ì§€í•˜ê¸° ìœ„í•œ ìƒìˆ˜ì •ì˜
 
 #include <stdio.h> 
 
@@ -9,13 +9,13 @@ int main(void)
 
 	while (1)
 	{
-		printf("Á¤¼ö[À½¼ö, 0(Á¾·á), ¾ç¼ö]¸¦ ÀÔ·Â ÈÄ [Enter] : ");
+		printf("ì •ìˆ˜[ìŒìˆ˜, 0(ì¢…ë£Œ), ì–‘ìˆ˜]ë¥¼ ì…ë ¥ í›„ [Enter] : ");
 		scanf("%d", &input);
-		printf("ÀÔ·ÂÇÑ Á¤¼ö %d\n", input);
+		printf("ì…ë ¥í•œ ì •ìˆ˜ %d\n", input);
 		if (input == 0)
 			break;
 	}
-	puts("Á¾·áÇÕ´Ï´Ù.");
+	puts("ì¢…ë£Œí•©ë‹ˆë‹¤.");
 
 	return 0;
 }

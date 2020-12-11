@@ -1,5 +1,5 @@
-// file: inputsum.c
-#define _CRT_SECURE_NO_WARNINGS //scanf() ¿À·ù¸¦ ¹æÁöÇÏ±â À§ÇÑ »ó¼ö Á¤ÀÇ
+ï»¿// file: inputsum.c
+#define _CRT_SECURE_NO_WARNINGS //scanf() ì˜¤ë¥˜ë¥¼ ë°©ì§€í•˜ê¸° ìœ„í•œ ìƒìˆ˜ ì •ì˜
 
 #include <stdio.h>
 
@@ -7,21 +7,21 @@ int main(void)
 {
 	int i, sum, max,max1;
 
-	printf("1¿¡¼­ºÎÅÍ Á¤¼ö±îÁöÀÇ ÇÕÀ» ±¸ÇÒ ¾çÀÇ Á¤¼ö ÇÏ³ª ÀÔ·Â: ");
+	printf("1ì—ì„œë¶€í„° ì •ìˆ˜ê¹Œì§€ì˜ í•©ì„ êµ¬í•  ì–‘ì˜ ì •ìˆ˜ í•˜ë‚˜ ì…ë ¥: ");
 	scanf("%d", &max);
 	
 
-	for (i = 1, sum = 0; i <= max; i++) //++iµµ °¡´É
+	for (i = 1, sum = 0; i <= max; i++) //++ië„ ê°€ëŠ¥
 		sum += i; // sum= sum + i;
-	printf("\nfor ¹®À¸·Î ±¸ÇÑ 1¿¡¼­ %d±îÁö ÇÕ: %3d\n", max, sum);
+	printf("\nfor ë¬¸ìœ¼ë¡œ êµ¬í•œ 1ì—ì„œ %dê¹Œì§€ í•©: %3d\n", max, sum);
 
 	i = 1, sum = 0;
 	while (i <= max)
 	{
 		sum += i;	// sum = sum + i;
-		i++;		// ++iµµ °¡´É
+		i++;		// ++ië„ ê°€ëŠ¥
 	}
-	printf("while ¹®À¸·Î ±¸ÇÑ 1¿¡¼­ %d±îÁö ÇÕ: %3d\n", max, sum);
+	printf("while ë¬¸ìœ¼ë¡œ êµ¬í•œ 1ì—ì„œ %dê¹Œì§€ í•©: %3d\n", max, sum);
 
 	return 0;
 }

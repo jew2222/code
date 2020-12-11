@@ -1,4 +1,4 @@
-// file: triangle.c
+﻿// file: triangle.c
 
 #include <stdio.h>
 

@@ -1,4 +1,4 @@
-// file: goto.c
+ï»¿// file: goto.c
 
 #include <stdio.h> 
 
@@ -6,12 +6,12 @@ int main(void)
 {
 	int count = 1;
 
- loop : //ÀÌ°ÍÀ» ¶óº§ÀÌ¶óÇÑ´Ù
+ loop : //ì´ê²ƒì„ ë¼ë²¨ì´ë¼í•œë‹¤
 	printf("%3d", count);
 	if (++count <= 10)
-		  goto loop; //¶óº§ÀÌ ÀÖ´Â°÷À¸·Î°¡¼­ ½ÇÇà
+		  goto loop; //ë¼ë²¨ì´ ìˆëŠ”ê³³ìœ¼ë¡œê°€ì„œ ì‹¤í–‰
 
-	printf("\nÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.\n");
+	printf("\ní”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.\n");
 
 	return 0;
 }

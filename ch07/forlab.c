@@ -1,14 +1,14 @@
-// file: forlab.c
+ï»¿// file: forlab.c
 
 #include <stdio.h>
 #define MAX 9
 
 int main(void)
 {
-	printf("=== ±¸±¸´Ü Ãâ·Â ===\n");
+	printf("=== êµ¬êµ¬ë‹¨ ì¶œë ¥ ===\n");
 	for (int i = 2; i <= MAX; i++)
 	{
-		printf("%6d´Ü Ãâ·Â\n", i);
+		printf("%6dë‹¨ ì¶œë ¥\n", i);
 	}
 
 	return 0;

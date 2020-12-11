@@ -1,4 +1,4 @@
-// file: forlab.c
+ï»¿// file: dowhilelab.c
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
@@ -8,14 +8,14 @@ int main(void)
 	int input = 0, result = 0, digit = 0;
 	int devider = 100;
 
-	printf("¾çÀÇ Á¤¼ö[100~999] ÀÔ·Â : ");
+	printf("ì–‘ì˜ ì •ìˆ˜[100~999] ìž…ë ¥ : ");
 	scanf("%d", &input);
 	result = input;
 	do
 	{
 		digit = result / devider;
 		result %= devider;
-		printf("%3d´ÜÀ§ Ãâ·Â: %d\n", devider, digit);
+		printf("%3dë‹¨ìœ„ ì¶œë ¥: %d\n", devider, digit);
 		devider /= 10;
 	} while (devider >= 1);
 

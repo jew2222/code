@@ -1,4 +1,4 @@
-// file: forbasic.c
+ï»¿// file: forbasic.c
 
 #include <stdio.h>
 #define MAX 5
@@ -9,10 +9,10 @@ int main(void)
 
 	for (i = 1; i <= MAX; i++)
 	{
-		printf("C ¾ð¾î Àç¹ÌÀÖ³×¿ä! %d\n", i);
+		printf("C ì–¸ì–´ ìž¬ë¯¸ìžˆë„¤ìš”! %d\n", i);
 	}
 
-	printf("\nÁ¦¾îº¯¼ö i => %d\n", i);
+	printf("\nì œì–´ë³€ìˆ˜ i => %d\n", i);
 
 	return 0;
 }

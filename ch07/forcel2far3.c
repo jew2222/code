@@ -1,4 +1,4 @@
-//  file: forcel2far3.c
+ï»¿//  file: forcel2far3.c
 
 #include <stdio.h>
 #define MAX 3
@@ -8,7 +8,7 @@ int main(void)
 {
 	double celcius = 12.46;
 
-	printf("  ¼·¾¾(C)  È­¾¾(F)\n");
+	printf("  ì„­ì”¨(C)  í™”ì”¨(F)\n");
 	printf("---------------------\n");
 
 

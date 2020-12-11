@@ -1,5 +1,5 @@
-// file: dowhile.c
-#define _CRT_SECURE_NO_WARNINGS  //scanf() ¿À·ù¸¦ ¹æÁöÇÏ±â À§ÇÑ »ó¼öÁ¤ÀÇ
+ï»¿// file: dowhile.c
+#define _CRT_SECURE_NO_WARNINGS  //scanf() ì˜¤ë¥˜ë¥¼ ë°©ì§€í•˜ê¸° ìœ„í•œ ìƒìˆ˜ì •ì˜
 
 #include <stdio.h> 
 
@@ -9,11 +9,11 @@ int main(void)
 
 	do
 	{
-		printf("Á¤¼ö ¶Ç´Â 0(Á¾·á)À» ÀÔ·Â: ");
+		printf("ì •ìˆ˜ ë˜ëŠ” 0(ì¢…ë£Œ)ì„ ì…ë ¥: ");
 		scanf("%d", &input);
 	} while (input != 0); //while (input);
 
-	puts("Á¾·áÇÕ´Ï´Ù.");
+	puts("ì¢…ë£Œí•©ë‹ˆë‹¤.");
 
 	return 0;
 }

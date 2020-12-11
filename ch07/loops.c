@@ -1,4 +1,4 @@
-// file: loops.c
+ï»¿// file: loops.c
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h> 
@@ -9,7 +9,7 @@ int main(void)
 
 	do
 	{
-		printf("¾çÀÇ Á¤¼ö ¶Ç´Â 0(Á¾·á)À» ÀÔ·Â: ");
+		printf("ì–‘ì˜ ì •ìˆ˜ ë˜ëŠ” 0(ì¢…ë£Œ)ì„ ì…ë ¥: ");
 		scanf("%d", &input);
 
 		for (i = 1; i <= input; i++)
@@ -24,7 +24,7 @@ int main(void)
 		}
 	} while (input > 0);
 
-	puts("Á¾·áÇÕ´Ï´Ù.");
+	puts("ì¢…ë£Œí•©ë‹ˆë‹¤.");
 
 	return 0;
 }
