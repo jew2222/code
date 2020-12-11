@@ -1,4 +1,4 @@
-ï»¿// file: twoarysample.c
+// file: twoarysample.c
 #include <stdio.h>
 
 int main()
@@ -12,17 +12,20 @@ int main()
 	int rowsize = sizeof(abc) / sizeof(abc[0]);
 	int colsize = sizeof(abc[0]) / sizeof(abc[0][0]);
 
-	printf("ê° í–‰ì˜ ì²« ì£¼ì†Œ ì¶œë ¥: \n");
+	printf("°¢ ÇàÀÇ Ã¹ ÁÖ¼Ò Ãâ·Â: \n");
 	for (int i = 0; i < rowsize; i++)
-		printf("%d ", abc[i]);
+		printf("%p ", abc[i]);
 	printf("\n\n");
 
-	printf("2í–‰ ì›ì†Œì˜ ì£¼ì†Œì™€ ê°’ ì¶œë ¥: \n");
+	printf("2Çà ¿ø¼ÒÀÇ ÁÖ¼Ò¿Í °ª Ãâ·Â: \n");
 	int *p = abc[1];
 	for (int i = 0; i < colsize; i++)
 	{
-		printf("%u ", p);
+		printf("%p ", p);
+		printf("%llu ", p);
 		printf("%d\n", *p++);
+		//¼ö¾÷¿µ»ó Âü°íÇÏ¿© ¼öÁ¤ÇÑ ºÎºĞÀÔ´Ï´Ù
+		
 	}
 
 	return 0;
